@@ -143,3 +143,43 @@ header{
 .list-caracter li{
     margin-bottom: 20px;
 }
+/* FOOTER */
+footer{
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+/* Footer content */
+.footer-content{
+    display: flex;
+    width: 100%;
+}
+/* Footer list and language */
+.footer-list,
+.footer-language{
+    width: 50%;
+}
+/* Footer list */
+.footer-list{
+    font-size: 11px;
+    color: gray;
+}
+/* Footer list ul */
+.footer-list ul{
+    display: flex;
+}
+/* Footer list ul li span */
+.footer-list ul li span{
+    padding: 0 5px;
+    position: relative;
+    bottom: 3px;
+}
+/* Footer language */
+.footer-language{
+    display: flex;
+    justify-content: flex-end;
+}
+/* Footer language select */
+.footer-language select{
+    width: 180px;
+    margin-left: 10px;
+}

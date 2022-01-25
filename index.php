@@ -128,7 +128,36 @@
     <!-- END MAIN -->
     <!-- FOOTER -->
     <footer>
-        
+        <!-- Container -->
+        <div class="container">
+            <!-- Footer content -->
+            <div class="footer-content">
+                <!-- Footer list -->
+                <div class="footer-list">
+                    <ul>
+                        <li>
+                            <a href="#">Google</a><span>.</span>
+                        </li>
+                        <li>
+                            <a href="#">Tutto su Google</a><span>.</span>
+                        </li>
+                        <li>
+                            <a href="#">Privacy</a><span>.</span>
+                        </li>
+                        <li>
+                            <a href="#">Termini</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Footer language -->
+                <div class="footer-language">
+                    <img src="images/language.png" alt="">
+                    <select>
+                        <option value="italiano">Italiano</option>
+                    </select>
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- END FOOTER -->
 </body>
