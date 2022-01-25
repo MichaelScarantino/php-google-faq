@@ -1,0 +1,145 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* COMMON */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Ul */
+ul{
+  list-style-type: none;  
+}
+/* A */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* Container */
+.container{
+    width: 65%;
+    margin: 0 auto;
+}
+/* HEADER */
+header{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+/* Header top */
+.header-top{
+    padding: 20px 20px 10px 20px;
+    display: flex;
+}
+/* Header logo and user */
+.header-logo,
+.header-user{
+    width: 50%;
+}
+/* Header logo */
+.header-logo{
+    display: flex;
+    align-items: center;
+
+    
+}
+/* Header logo img*/
+.header-logo-img{
+    width: 90px;
+    display: flex;
+    align-items: center;
+    
+}
+/* Header logo text */
+.header-logo-text{
+    font-size: 22px;
+    color: rgb(110, 110, 110);
+}
+/* Header user */
+.header-user{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* Header menu icon */
+.header-menu-icon{
+    padding-right: 20px;
+}
+/* Header user icon */
+.header-user-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rebeccapurple;
+    position: relative;
+}
+/* Header user icon span */
+.header-user-icon span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.header-bottom{
+    border-bottom: 1px solid lightgray;
+}
+/* Header bottom ul */
+.header-bottom nav ul{
+    display: flex;
+}
+/* Header bottom ul li */
+.header-bottom nav ul li{
+    padding: 10px 20px;
+}
+/* Header bottom ul li a */
+.header-bottom nav ul li a {
+    padding: 8px 0;
+}
+/* Header bottom ul li last child a */
+.header-bottom nav ul li:last-child a{
+    color: #3367d6;
+    border-bottom: 3px solid #3367d6;
+}
+
+/* MAIN */
+/* Main content */
+.main-content{
+    padding-top: 200px;
+}
+/* Main content section */
+.main-content section{
+    padding-bottom: 50px;
+}
+/* Main content h2 */
+.main-content h2{
+    padding-bottom: 20px;
+}
+/* Main content div */
+.main-content div{
+    margin-bottom: 40px ;
+}
+/* Main content a */
+.main-content a{
+    color: #3367d6;
+}
+/* Main content ol */
+.main-content ol{
+    margin: 20px;
+}
+/* List caracter */
+.list-caracter{
+    list-style-type: lower-alpha;
+    margin-left: 20px;
+}
+/* List carecter li */
+.list-caracter li{
+    margin-bottom: 20px;
+}
